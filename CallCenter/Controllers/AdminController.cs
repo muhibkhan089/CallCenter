@@ -17,5 +17,13 @@ namespace CallCenter.Controllers
         {
             return View();
         }
+        public ActionResult ViewProject()
+        {
+            return View();
+        }
+        public ActionResult AddProject()
+        {
+            return View();
+        }
     }
 }
