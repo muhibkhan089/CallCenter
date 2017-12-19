@@ -13,15 +13,35 @@ namespace CallCenter.Controllers
         {
             return View();
         }
-        public ActionResult Login()
-        {
-            return View();
-        }
         public ActionResult ViewProject()
         {
             return View();
         }
         public ActionResult AddProject()
+        {
+            return View();
+        }
+        public ActionResult ViewUsers()
+        {
+            return View();
+        }
+        public ActionResult AddUser()
+        {
+            return View();
+        }
+        public ActionResult ViewAgents()
+        {
+            return View();
+        }
+        public ActionResult AddAgent()
+        {
+            return View();
+        }
+        public ActionResult ViewLeads()
+        {
+            return View();
+        }
+        public ActionResult AddLeads()
         {
             return View();
         }
