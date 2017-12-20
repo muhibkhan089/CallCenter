@@ -260,6 +260,8 @@
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Shared\_LayoutAgent.cshtml" />
     <Content Include="Views\Agent\Index.cshtml" />
+    <None Include="Properties\PublishProfiles\demo-webapp-1 - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\demo-webapp-1 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
