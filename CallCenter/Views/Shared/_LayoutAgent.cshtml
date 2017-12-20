@@ -31,6 +31,7 @@
     @RenderSection("dataTableCss", required: false)
     <link href="~/Content/build/css/custom.min.css" rel="stylesheet" />
 </head>
+
 <body class="nav-md">
     <div class="container body">
         <div class="main_container">
@@ -218,8 +219,10 @@
             <!-- /footer content -->
         </div>
     </div>
+    
     <!-- jQuery -->
     <script src="~/Content/vendors/jquery/dist/jquery.min.js"></script>
+    @RenderSection("addNewField", required: false)
     <!-- Bootstrap -->
     <script src="~/Content/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- FastClick -->
